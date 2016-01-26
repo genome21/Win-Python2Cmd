@@ -15,4 +15,4 @@ Are you on Windows and Python is unavailable from the command prompt?  These scr
 * Path over to where your python files are located
 * Type PYTHON to run Python interactively from the command prompt
 * Add the name of the Python file that you would like to run as an argument to pass to the Python Interpreter
-* Example: <i>python test.py</i>
+* Example: <i>python <b>test.py</b></i>

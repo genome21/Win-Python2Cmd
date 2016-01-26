@@ -1,6 +1,6 @@
 # Windows Python to CMD
 
-Are you on Windows and Python is unavailable from the command line?  These scripts setup your computer to use "Python" as a command from your Windows Command Line.
+Are you on Windows and Python is unavailable from the command prompt?  These scripts setup your computer to use "Python" as a command from your Windows Command Prompt.
 
 <hr>
 

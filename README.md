@@ -15,7 +15,7 @@ These scripts are set to work with Python 3.5 (32 bit).  Support for other versi
 ## Passing arguments to Python
 
 * Path over to where your python files are located
-* Type PYTHON to run Python interactively from the command prompt
+* Type PYTHON to prepare to run a Python source code file
 * Add the name of the Python file that you would like to run as an argument to pass to the Python interpreter
-* Add an argument after the Python file to pass to the interpreted code
+* Add an argument after the Python file to pass to the interpreted code if needed
 * Example: <i>python <b>setup.py</b> install</i>

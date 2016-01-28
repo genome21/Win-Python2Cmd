@@ -16,5 +16,5 @@ These scripts are set to work with Python 3.5 (32 bit).  Support for other versi
 
 * Path over to where your python files are located
 * Type PYTHON to run Python interactively from the command prompt
-* Add the name of the Python file that you would like to run as an argument to pass to the Python Interpreter
-* Example: <i>python <b>test.py</b></i>
+* Add the name of the Python file that you would like to run as an argument to pass to the Python code
+* Example: <i>python <b>test.py</b> install</i>

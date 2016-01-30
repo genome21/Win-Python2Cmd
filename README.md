@@ -3,7 +3,7 @@
 Are you on Windows and Python is unavailable from the command prompt?  These scripts setup your computer to use "Python" as a command from your Windows Command Prompt.
 
 ###Version
-These scripts are set to work with Python 3.5 (32 bit).  Support for other versions is on the way!
+These scripts are set to work with 32-bit Python v2.7 and v3.5.  Support for other versions is on the way!
 <hr>
 
 ## How to use:

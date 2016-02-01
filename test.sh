@@ -1,1 +1,1 @@
-echo Test passed
+./test.sh

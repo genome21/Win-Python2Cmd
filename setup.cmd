@@ -1,44 +1,72 @@
 @echo off
-%USERPROFILE%\AppData\Local\Programs\Python\Python35-32\python.exe --version > version.txt
-SET /a ERL=%ERRORLEVEL%
-GOTO compatibility3
+GOTO compatibility3532
 
 :errors
-ECHO Python version not compatible.
+ECHO PYTHON VERSION NOT COMPATIBLE.
 GOTO EOF
 
-:compatibility3
-FIND "Python 3.5" version.txt
-GOTO ELO1
-
-:compatibility2
-FIND "Python 2.7" version.txt
-GOTO ELO2
-
-:ELO1
+:compatibility3532
+SET FINDVERSION=%USERPROFILE%\AppData\Local\Programs\Python\Python35-32\python.exe --version
+%FINDVERSION% > version.txt
+FIND "Python 3.5" version.txt>NUL
 IF ERRORLEVEL == 1 (
-	GOTO compatibility2
+	GOTO compatibility2732
 ) ELSE (
-	GOTO runcode35
+	GOTO RUNCODE3532
 )
 
-:ELO2
+:compatibility2732
+SET FINDVERSION=%USERPROFILE%\AppData\Local\Programs\Python\Python27-32\python.exe --version
+%FINDVERSION% > version.txt
+FIND "Python 2.7" version.txt>NUL
 IF ERRORLEVEL == 1 (
 	GOTO errors
 ) ELSE (
-	GOTO runcode27
+	GOTO RUNCODE2732
 )
 
-:runcode35
-REN python35.genome21 python.cmd
-COPY python.cmd C:\Windows
-REN python.cmd python35.genome21
+:COMPATIBILITY3564
+SET FINDVERSION=%USERPROFILE%\AppData\Local\Programs\Python\Python35\python.exe --version
+%FINDVERSION% > version.txt
+FIND "Python 3.5" version.txt>NUL
+IF ERRORLEVEL == 1 (
+	GOTO compatibility2764
+) ELSE (
+	GOTO RUNCODE3564
+)
+
+:COMPATIBILITY2764
+SET FINDVERSION=%USERPROFILE%\AppData\Local\Programs\Python\Python27\python.exe --version
+%FINDVERSION% > version.txt
+FIND "Python 3.5" version.txt>NUL
+IF ERRORLEVEL == 1 (
+	GOTO errors
+) ELSE (
+	GOTO RUNCODE2764
+)
+
+:RUNCODE3532
+REN python3532.genome21 python.cmd
+COPY python.cmd C:\Windows>NUL
+REN python.cmd python3532.genome21
 GOTO EOF
 
-:runcode27
-REN python27.genome21 python.cmd
-COPY python.cmd C:\Windows
-REN python.cmd python27.genome21
+:RUNCODE2732
+REN python2732.genome21 python.cmd
+COPY python.cmd C:\Windows>NUL
+REN python.cmd python2732.genome21
+GOTO EOF
+
+:RUNCODE3564
+REN python3564.genome21 python.cmd
+COPY python.cmd C:\Windows>NUL
+REN python.cmd python3564.genome21
+GOTO EOF
+
+:RUNCODE2764
+REN python2764.genome21 python.cmd
+COPY python.cmd C:\Windows>NUL
+REN python.cmd python2764.genome21
 GOTO EOF
 
 :EOF

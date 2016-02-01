@@ -1,8 +1,8 @@
-language: python
 sudo: required
+language: python
 os:
  - windows
 python:
  - "3.5"
 script:
- - sudo ./ci/test.sh
+ - ./ci/test.sh

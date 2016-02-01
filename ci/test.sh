@@ -1,1 +1,1 @@
-if test -f "../psetup.py"; then echo "Test Passed!";fi
+sudo if test -f "../psetup.py"; then echo "Test Passed!";fi

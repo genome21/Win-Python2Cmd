@@ -70,3 +70,4 @@ REN python.cmd python2764.genome21
 GOTO EOF
 
 :EOF
+DEL /Q version.txt

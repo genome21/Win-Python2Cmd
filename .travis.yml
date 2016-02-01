@@ -4,3 +4,5 @@ os:
  - windows
 python:
  - "3.5"
+script:
+ - Python psetup.py

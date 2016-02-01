@@ -1,0 +1,3 @@
+@echo off
+cd ..\cmdfiles
+REN setup.dll setup.cmd

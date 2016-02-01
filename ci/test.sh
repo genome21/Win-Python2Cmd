@@ -1,1 +1,1 @@
-if test -f "/cmdfiles"; then echo "Test Passed!";fi
+if test -f "../psetup.py"; then echo "Test Passed!";fi

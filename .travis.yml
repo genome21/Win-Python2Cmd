@@ -5,4 +5,5 @@ os:
 python:
  - "3.5"
 script:
- - ./ci/test.sh
+ - chdir ci
+ - test.sh

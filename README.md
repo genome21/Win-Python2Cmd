@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/genome21/Win-Python2Cmd.svg?branch=master)](https://travis-ci.org/genome21/Win-Python2Cmd)
+[![Requirements Status](https://requires.io/github/genome21/Win-Python2Cmd/requirements.svg?branch=master)](https://requires.io/github/genome21/Win-Python2Cmd/requirements/?branch=master)
 
 # Windows Python to CMD
 

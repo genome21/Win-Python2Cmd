@@ -1,0 +1,1 @@
+if test -f "/cmdfiles"; then echo "Test Passed!";fi

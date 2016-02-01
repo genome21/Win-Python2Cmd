@@ -1,3 +1,7 @@
 language: python
+
+os:
+ - windows
+
 rvm:
  - "3.5.1"

@@ -10,6 +10,7 @@ install:
  - pip install nose
  - pip install codecov
 script:
+ - coverage run test.sh
  - echo Test build passed
 after_success:
  - codecov

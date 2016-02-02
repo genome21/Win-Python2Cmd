@@ -10,5 +10,6 @@ install:
  - pip install nose
  - pip install codecov
 script:
+ - ls
  - sudo python test.py
- - echo Test build passed
+

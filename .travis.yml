@@ -12,5 +12,5 @@ install:
 script:
  - echo Test build passed
 after_success:
-- codecov
-- coveralls
+ - codecov
+ - coveralls

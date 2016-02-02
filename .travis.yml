@@ -13,4 +13,4 @@ script:
  - echo Test build passed
 after_success:
 - codecov
- - coveralls
+- coveralls

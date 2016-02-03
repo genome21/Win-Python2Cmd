@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/genome21/Win-Python2Cmd.svg?branch=master)](https://travis-ci.org/genome21/Win-Python2Cmd)
 [![Requirements Status](https://requires.io/github/genome21/Win-Python2Cmd/requirements.svg?branch=master)](https://requires.io/github/genome21/Win-Python2Cmd/requirements/?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/genome21/Win-Python2Cmd/badge.svg?branch=master)](https://coveralls.io/github/genome21/Win-Python2Cmd?branch=master)
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/ba78f1532fc8400d8c3553d9a9e7e38c/badge.svg)](https://www.quantifiedcode.com/app/project/ba78f1532fc8400d8c3553d9a9e7e38c)
 
 # Windows Python to CMD
 

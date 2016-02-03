@@ -9,7 +9,9 @@ install:
  - pip install coverage
  - pip install nose
  - pip install codecov
+ - pip install codacy-coverage
 script:
  - ls
  - sudo python test.py
+ - export CODACY_PROJECT_TOKEN=bd2c2bbbf812440e87320cbaf636eb32
 

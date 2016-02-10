@@ -25,3 +25,6 @@ These scripts are set to work with 32 & 64-bit Python v2.7 and v3.5.
 * Add the name of the Python file that you would like to run as an argument to pass to the Python interpreter
 * Add an argument after the Python file to pass to the interpreted code if needed
 * Example: <i>python <b>setup.py</b> install</i>
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/genome21/win-python2cmd/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
